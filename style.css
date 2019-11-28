@@ -1,0 +1,20 @@
+body
+{
+    background-color:wheat
+}
+p
+{
+    color:black
+}
+table
+{
+    width:70%; border-collapse:collapse;
+    background-color:lightblue ;
+}
+td
+{
+    border:2px solid black;
+    text-align: center;
+}
+/* Aquí estoy poniendo los colores del fondo de la página web y del color del tecto */
+/* Tambien he añadido el estilo que quiero que tengan mis tablas
