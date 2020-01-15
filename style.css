@@ -1,10 +1,8 @@
+/* Aquí estoy poniendo los colores del fondo de la página web y del color del tecto */
+/* Tambien he añadido el estilo que quiero que tengan mis tablas*/
 body
 {
-    background-color:wheat
-}
-p
-{
-    color:black
+    background-color:white
 }
 table
 {
@@ -16,5 +14,25 @@ td
     border:2px solid black;
     text-align: center;
 }
-/* Aquí estoy poniendo los colores del fondo de la página web y del color del tecto */
-/* Tambien he añadido el estilo que quiero que tengan mis tablas
+main
+{
+    color: black;
+
+}
+section
+{
+    background-color: red;
+    color: white;
+    margin: 200px;
+    padding: 50px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+article
+{
+    background-color: black;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 15px;
+}

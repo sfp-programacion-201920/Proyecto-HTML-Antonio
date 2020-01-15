@@ -1,0 +1,18 @@
+body
+{
+    background-color:wheat
+}
+p
+{
+    color:black
+}
+table
+{
+    width:70%; border-collapse:collapse;
+    background-color:lightblue ;
+}
+td
+{
+    border:2px solid black;
+    text-align: center;
+}
