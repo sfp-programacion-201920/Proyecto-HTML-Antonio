@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="Formulario de registro" action="mailto:antoniojimenezriquelme@gmail.com" method="GET" target="_self"
+        enctype="multipart/form-data">
+        Introduce tu nombre: <input type="text" name="Nombre" size="15" autocomplete="name" autofocus required
+            placeholder="Nombre"><br><br>
+        Introduce tus apellidos: <input type="text" name="Apellidos" size="50" autocomplete="name" required
+            placeholder="Apellidos"><br><br>
+        ¿Quieres que te llame de alguna otra manera? <input type="text" name="Apodo" size="10"
+            autocomplete="nickname"><br><br>
+        Escribe una contraseña: <input type="password" name="Contraseña" minlength="6" maxlength="18"
+            autocomplete="password" required><br><br>
+        Introduce tu edad: <input type="number" name="Edad" step="1" required placeholder="18" min="18"><br><br>
+        Para estar en contacto dime tu numero de telefono: <input type="tel" name="Telefono" value="+34"><br><br>
+        Introduce tu correo electronico para confirmar el registro: <input type="email" name="Correo" size="50"
+            autocomplete="email" required value="@gmail.com"><br><br>
+        Introduce tu fecha de nacimiento: <input type="date" name="Fecha" required><br><br>
+        Introduce tu uso horario para ajustar nuestros horarios al tuyo: <input type="datetime-local" name="Hora"
+            required>
+        <p>Selecciona los equipos de Formula 1 de los que quieres recibir información:</p>
+        <input type="checkbox" name="Mercedes"><label for="Mercedes">Mercedes</label><br>
+        <input type="checkbox" name="Ferrari"><label for="Ferrari">Ferrari</label><br>
+        <input type="checkbox" name="Red Bull"><label for="Red Bull">Red Bull</label><br>
+        <input type="checkbox" name="Mclaren"><label for="Mclaren">Mclaren</label><br>
+        <input type="checkbox" name="Renault"><label for="Renault">Renault</label><br>
+        <input type="checkbox" name="Toro Rosso"><label for="Toro Rosso">Toro Rosso</label><br>
+        <input type="checkbox" name="Racing Point"><label for="Racing Point">Racing Point</label><br>
+        <input type="checkbox" name="Alfa Romeo"><label for="Alfa Romeo">Alfa Romeo</label><br>
+        <input type="checkbox" name="Haas"><label for="Haas">Haas</label><br>
+        <input type="checkbox" name="Williams"><label for="Williams">Williams</label><br><br>
+        <p>Selecciona tu equipo favorito de la parrilla:</p>
+        <input type="radio" name="Mercedes"><label for="Mercedes">Mercedes</label><br>
+        <input type="radio" name="Ferrari"><label for="Ferrari">Ferrari</label><br>
+        <input type="radio" name="Red Bull"><label for="Red Bull">Red Bull</label><br>
+        <input type="radio" name="Mclaren"><label for="Mclaren">Mclaren</label><br>
+        <input type="radio" name="Renault"><label for="Renault">Renault</label><br>
+        <input type="radio" name="Toro Rosso"><label for="Toro Rosso">Toro Rosso</label><br>
+        <input type="radio" name="Racing Point"><label for="Racing Point">Racing Point</label><br>
+        <input type="radio" name="Alfa Romeo"><label for="Alfa Romeo">Alfa Romeo</label><br>
+        <input type="radio" name="Haas"><label for="Haas">Haas</label><br>
+        <input type="radio" name="Williams"><label for="Williams">Williams</label><br><br>
+        <label for="Satisfaccion">Indica tu valor de satisfacción con la Formula 1 actual</label><br>
+        <input type="range" name="Satisfaccion" min="0" max="10" step="1"><br><br>
+        Sube una foto de perfil: <br><input type="file" name="Icono" accept=".jpg, .png"><br><br>
+        Hablanos sobre otras categorias que te gusten del mundo del motor<br><textarea name="Categorias" rows="10"
+            cols="55">Formula 1, Formula E, Indycar, Nascar, WEC, etc.</textarea><br><br>
+            <button type="reset" value="reset" name="Reset">Reiniciar registro</button><br><br>
+            <button type="submit" value="Enviar" name="Enviar">Enviar registro</button>
+    </form>
+</body>
+
+</html>
