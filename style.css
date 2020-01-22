@@ -36,3 +36,22 @@ article
     padding: 10px;
     border-radius: 15px;
 }
+.RedBull
+{
+    background-color:#FFCC00;
+}
+#RedBullbackground
+{
+    background-color: #23326a;
+}
+.Mclaren
+{
+    background-color:#2a52be;
+    margin: 40px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#Mclarenbackground
+{
+    background-color: #F98E1D;
+}
