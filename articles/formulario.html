@@ -9,23 +9,53 @@
 </head>
 
 <body>
-    <form name="Formulario de registro" action="mailto:antoniojimenezriquelme@gmail.com" method="GET" target="_self"
-        enctype="multipart/form-data">
-        Introduce tu nombre: <input type="text" name="Nombre" size="15" autocomplete="name" autofocus required
-            placeholder="Nombre"><br><br>
-        Introduce tus apellidos: <input type="text" name="Apellidos" size="50" autocomplete="name" required
-            placeholder="Apellidos"><br><br>
-        ¿Quieres que te llame de alguna otra manera? <input type="text" name="Apodo" size="10"
-            autocomplete="nickname"><br><br>
-        Escribe una contraseña: <input type="password" name="Contraseña" minlength="6" maxlength="18"
-            autocomplete="password" required><br><br>
-        Introduce tu edad: <input type="number" name="Edad" step="1" required placeholder="18" min="18"><br><br>
-        Para estar en contacto dime tu numero de telefono: <input type="tel" name="Telefono" value="+34"><br><br>
-        Introduce tu correo electronico para confirmar el registro: <input type="email" name="Correo" size="50"
-            autocomplete="email" required value="@gmail.com"><br><br>
-        Introduce tu fecha de nacimiento: <input type="date" name="Fecha" required><br><br>
-        Introduce tu uso horario para ajustar nuestros horarios al tuyo: <input type="datetime-local" name="Hora"
-            required>
+    <fieldset>
+        <legend>Datos</legend>
+        <form name="Formulario de registro" action="mailto:antoniojimenezriquelme@gmail.com" method="POST" target="_self"
+            enctype="multipart/form-data">
+            Introduce tu nombre: <input type="text" name="Nombre" size="15" autocomplete="name" autofocus required
+                placeholder="Nombre"><br><br>
+            Introduce tus apellidos: <input type="text" name="Apellidos" size="50" autocomplete="name" required
+                placeholder="Apellidos"><br><br>
+            ¿Quieres que te llame de alguna otra manera? <input type="text" name="Apodo" size="10"
+                autocomplete="nickname"><br><br>
+            Escribe una contraseña: <input type="password" name="Contraseña" minlength="6" maxlength="18"
+                autocomplete="password" required><br><br>
+            Introduce tu edad: <input type="number" name="Edad" step="1" required placeholder="18" min="18"><br><br>
+            Para estar en contacto dime tu numero de telefono: <input type="tel" name="Telefono" value="+34"><br><br>
+            Introduce tu correo electronico para confirmar el registro: <input type="email" name="Correo" size="50"
+                autocomplete="email" required placeholder="@gmail.com, @outlook.es"><br><br>
+            Introduce tu fecha de nacimiento: <input type="date" name="Fecha" required><br><br>
+            Introduce tu uso horario para ajustar nuestros horarios al tuyo: <input type="datetime-local" name="Hora"
+                required><br><br>
+            Sube una foto de perfil: <br><input type="file" name="Icono" accept=".jpg, .png"><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Cuestionario de gustos</legend>
+        Seleccione su piloto favorito
+        <label for="Pilotos">Seleccione su piloto favorito</label><br>
+        <select name="Pilotos">
+            <option value="Hamilton">Lewis Hamilton</option>
+            <option value="Bottas">Valteri Bottas</option>
+            <option value="Leclerc">Charles Leclerc</option>
+            <option value="Vettel">Sebastian Vettel</option>
+            <option value="Verstappen">Max Verstappen</option>
+            <option value="Albon">Alexander Albon</option>
+            <option value="Sainz">Carlos Sainz</option>
+            <option value="Norris">Lando Norris</option>
+            <option value="Ricciardo">Daniel Ricciardo</option>
+            <option value="Hülkenberg">Nico Hülkenberg</option>
+            <option value="Gasly">Pierre Gasly</option>
+            <option value="Kvyat">Daniil Kvyat</option>
+            <option value="Perez">Sergio Perez</option>
+            <option value="Stroll">Lance Stroll</option>
+            <option value="Raikkönen">Kimi Raikkönen</option>
+            <option value="Giovinnazi">Antonio Giovinnazi</option>
+            <option value="Magnussen">Kevin Magnussen</option>
+            <option value="Grosjean">Romain Grosjean</option>
+            <option value="Russell">George Russell</option>
+            <option value="Kubika">Robert Kubica</option>
+        </select>
         <p>Selecciona los equipos de Formula 1 de los que quieres recibir información:</p>
         <input type="checkbox" name="Mercedes"><label for="Mercedes">Mercedes</label><br>
         <input type="checkbox" name="Ferrari"><label for="Ferrari">Ferrari</label><br>
@@ -50,12 +80,11 @@
         <input type="radio" name="Williams"><label for="Williams">Williams</label><br><br>
         <label for="Satisfaccion">Indica tu valor de satisfacción con la Formula 1 actual</label><br>
         <input type="range" name="Satisfaccion" min="0" max="10" step="1"><br><br>
-        Sube una foto de perfil: <br><input type="file" name="Icono" accept=".jpg, .png"><br><br>
-        Hablanos sobre otras categorias que te gusten del mundo del motor<br><textarea name="Categorias" rows="10"
-            cols="55">Formula 1, Formula E, Indycar, Nascar, WEC, etc.</textarea><br><br>
-            <button type="reset" value="reset" name="Reset">Reiniciar registro</button><br><br>
-            <button type="submit" value="Enviar" name="Enviar">Enviar registro</button>
-    </form>
+        <label for="Categorias">Hablanos sobre otras categorias que te gusten del mundo del motor</label><br><textarea
+            name="Categorias" rows="10" placeholder="Formula E, Indycar, Nascar, WEC, etc." cols="55"></textarea><br><br>
+        <button type="reset" value="reset" name="Reset">Reiniciar registro</button><br><br>
+        <button type="submit" value="Enviar" name="Enviar">Enviar registro</button>
+        </form>
 </body>
 
 </html>
