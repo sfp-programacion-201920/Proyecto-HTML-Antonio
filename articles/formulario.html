@@ -11,8 +11,8 @@
 <body>
     <fieldset>
         <legend>Datos</legend>
-        <form name="Formulario de registro" action="mailto:antoniojimenezriquelme@gmail.com" method="POST" target="_self"
-            enctype="multipart/form-data">
+        <form name="Formulario de registro" action="mailto:antoniojimenezriquelme@gmail.com" method="POST"
+            target="_self" enctype="multipart/form-data">
             Introduce tu nombre: <input type="text" name="Nombre" size="15" autocomplete="name" autofocus required
                 placeholder="Nombre"><br><br>
             Introduce tus apellidos: <input type="text" name="Apellidos" size="50" autocomplete="name" required
@@ -20,7 +20,7 @@
             ¿Quieres que te llame de alguna otra manera? <input type="text" name="Apodo" size="10"
                 autocomplete="nickname"><br><br>
             Escribe una contraseña: <input type="password" name="Contraseña" minlength="6" maxlength="18"
-                autocomplete="password" required><br><br>
+                required><br><br>
             Introduce tu edad: <input type="number" name="Edad" step="1" required placeholder="18" min="18"><br><br>
             Para estar en contacto dime tu numero de telefono: <input type="tel" name="Telefono" value="+34"><br><br>
             Introduce tu correo electronico para confirmar el registro: <input type="email" name="Correo" size="50"
@@ -33,7 +33,7 @@
     <fieldset>
         <legend>Cuestionario de gustos</legend>
         Seleccione su piloto favorito
-        <label for="Pilotos">Seleccione su piloto favorito</label><br>
+        <label id="Pilotos">Seleccione su piloto favorito</label><br>
         <select name="Pilotos">
             <option value="Hamilton">Lewis Hamilton</option>
             <option value="Bottas">Valteri Bottas</option>
@@ -57,34 +57,39 @@
             <option value="Kubika">Robert Kubica</option>
         </select>
         <p>Selecciona los equipos de Formula 1 de los que quieres recibir información:</p>
-        <input type="checkbox" name="Mercedes"><label for="Mercedes">Mercedes</label><br>
-        <input type="checkbox" name="Ferrari"><label for="Ferrari">Ferrari</label><br>
-        <input type="checkbox" name="Red Bull"><label for="Red Bull">Red Bull</label><br>
-        <input type="checkbox" name="Mclaren"><label for="Mclaren">Mclaren</label><br>
-        <input type="checkbox" name="Renault"><label for="Renault">Renault</label><br>
-        <input type="checkbox" name="Toro Rosso"><label for="Toro Rosso">Toro Rosso</label><br>
-        <input type="checkbox" name="Racing Point"><label for="Racing Point">Racing Point</label><br>
-        <input type="checkbox" name="Alfa Romeo"><label for="Alfa Romeo">Alfa Romeo</label><br>
-        <input type="checkbox" name="Haas"><label for="Haas">Haas</label><br>
-        <input type="checkbox" name="Williams"><label for="Williams">Williams</label><br><br>
+        <input type="checkbox" name="Mercedes"><label id="Mercedes">Mercedes</label><br>
+        <input type="checkbox" name="Ferrari"><label id="Ferrari">Ferrari</label><br>
+        <input type="checkbox" name="Red Bull"><label id="Red_Bull">Red Bull</label><br>
+        <input type="checkbox" name="Mclaren"><label id="Mclaren">Mclaren</label><br>
+        <input type="checkbox" name="Renault"><label id="Renault">Renault</label><br>
+        <input type="checkbox" name="Toro Rosso"><label id="Toro_Rosso">Toro Rosso</label><br>
+        <input type="checkbox" name="Racing Point"><label id="Racing_Point">Racing Point</label><br>
+        <input type="checkbox" name="Alfa Romeo"><label id="Alfa_Romeo">Alfa Romeo</label><br>
+        <input type="checkbox" name="Haas"><label id="Haas">Haas</label><br>
+        <input type="checkbox" name="Williams"><label id="Williams">Williams</label><br><br>
         <p>Selecciona tu equipo favorito de la parrilla:</p>
-        <input type="radio" name="Mercedes"><label for="Mercedes">Mercedes</label><br>
-        <input type="radio" name="Ferrari"><label for="Ferrari">Ferrari</label><br>
-        <input type="radio" name="Red Bull"><label for="Red Bull">Red Bull</label><br>
-        <input type="radio" name="Mclaren"><label for="Mclaren">Mclaren</label><br>
-        <input type="radio" name="Renault"><label for="Renault">Renault</label><br>
-        <input type="radio" name="Toro Rosso"><label for="Toro Rosso">Toro Rosso</label><br>
-        <input type="radio" name="Racing Point"><label for="Racing Point">Racing Point</label><br>
-        <input type="radio" name="Alfa Romeo"><label for="Alfa Romeo">Alfa Romeo</label><br>
-        <input type="radio" name="Haas"><label for="Haas">Haas</label><br>
-        <input type="radio" name="Williams"><label for="Williams">Williams</label><br><br>
-        <label for="Satisfaccion">Indica tu valor de satisfacción con la Formula 1 actual</label><br>
+        <input type="radio" name="Mercedes"><label id="Mercedes_Petronas">Mercedes</label><br>
+        <input type="radio" name="Ferrari"><label id="Scuderia_Ferrari">Ferrari</label><br>
+        <input type="radio" name="Red Bull"><label id="Aston_Martin_Red_Bull">Red Bull</label><br>
+        <input type="radio" name="Mclaren"><label id="Mclaren_F1">Mclaren</label><br>
+        <input type="radio" name="Renault"><label id="Renault_F1">Renault</label><br>
+        <input type="radio" name="Toro Rosso"><label id="Alpha_Tauri">Toro Rosso</label><br>
+        <input type="radio" name="Racing Point"><label id="Racing_Point_Force_India">Racing Point</label><br>
+        <input type="radio" name="Alfa Romeo"><label id="Alfa_Romeo_Sauber">Alfa Romeo</label><br>
+        <input type="radio" name="Haas"><label id="Gene_Haas">Haas</label><br>
+        <input type="radio" name="Williams"><label id="Williams_Mercedes">Williams</label><br><br>
+        <label id="Satisfaccion">Indica tu valor de satisfacción con la Formula 1 actual</label><br>
         <input type="range" name="Satisfaccion" min="0" max="10" step="1"><br><br>
-        <label for="Categorias">Hablanos sobre otras categorias que te gusten del mundo del motor</label><br><textarea
-            name="Categorias" rows="10" placeholder="Formula E, Indycar, Nascar, WEC, etc." cols="55"></textarea><br><br>
+        <label id="Categorias">Hablanos sobre otras categorias que te gusten del mundo del motor</label><br><textarea
+            name="Categorias" rows="10" placeholder="Formula E, Indycar, Nascar, WEC, etc."
+            cols="55"></textarea><br><br>
         <button type="reset" value="reset" name="Reset">Reiniciar registro</button><br><br>
         <button type="submit" value="Enviar" name="Enviar">Enviar registro</button>
-        </form>
+    </fieldset>
+    <footer>
+        <p><a href="../index.html#inicio"><img alt="Volver a la página principal" src="../images/back.png"
+                    width="100"></a></p>
+    </footer>
 </body>
 
 </html>

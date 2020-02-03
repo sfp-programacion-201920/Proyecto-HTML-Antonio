@@ -9,6 +9,10 @@ table
     width:70%; border-collapse:collapse;
     background-color:lightblue ;
 }
+nav
+{
+text-align: center;
+}
 td
 {
     border:2px solid black;
@@ -36,6 +40,16 @@ article
     padding: 10px;
     border-radius: 15px;
 }
+.Ferrari
+{
+    background-color: red;
+    color: white;
+}
+#Ferraribackground
+{
+    background-color: white;
+    color: black;
+}
 .RedBull
 {
     background-color:#FFCC00;
@@ -54,4 +68,8 @@ article
 #Mclarenbackground
 {
     background-color: #F98E1D;
+}
+.barranav
+{
+    margin: 75px 50px 0px 50px;
 }
