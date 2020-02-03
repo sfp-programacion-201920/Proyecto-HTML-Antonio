@@ -1,6 +1,8 @@
 body
 {
-    background-color:#F98E1D
+    background-color:#F98E1D;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 h2
 {
@@ -24,7 +26,7 @@ td
 article
 {
     background-color: #2a52be;
-    padding: 15px 15px 90px 15px;
+    padding: 15px 15px 125px 15px;
     margin: 75px;
     border-radius: 15px;
 }

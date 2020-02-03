@@ -2,7 +2,11 @@
 /* Tambien he añadido el estilo que quiero que tengan mis tablas*/
 body
 {
-    background-color:white
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image:url(https://www.formula1.com/content/dam/fom-website/manual/Misc/2019-Races/France-2019/GettyImages-1157762558.jpg) ;
+    background-attachment: fixed;
+    opacity: 90%;
+    background-color:white;
 }
 table
 {
@@ -11,7 +15,7 @@ table
 }
 nav
 {
-text-align: center;
+    text-align: center;
 }
 td
 {
@@ -32,6 +36,9 @@ section
     text-align: center;
     align-items: center;
     border-radius: 10px;
+    -webkit-box-shadow: 1px 1px 20px 7px #000000;
+    -moz-box-shadow: 1px 1px 20px 7px #000000;
+    text-shadow: 0px 1px 100px #000000;
 }
 article
 {
@@ -56,7 +63,7 @@ article
 }
 #RedBullbackground
 {
-    background-color: #23326a;
+    background-color: #23326a
 }
 .Mclaren
 {
@@ -67,9 +74,42 @@ article
 }
 #Mclarenbackground
 {
-    background-color: #F98E1D;
+    background-color: #F98E1D
 }
 .barranav
 {
     margin: 75px 50px 0px 50px;
+}
+.boton {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 42px;
+    line-height: 42px;
+    color: #000000;
+    font-family: Arial;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 37px;
+    background-color: #FF0000;
+    box-shadow: 1px 1px 20px 7px #000000;
+    -webkit-box-shadow: 1px 1px 20px 7px #000000;
+    -moz-box-shadow: 1px 1px 20px 7px #000000;
+    text-shadow: 0px 1px 100px #000000;
+    border: solid black 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px;
+}
+.boton:hover
+{
+    background: magenta;
+    border: solid #A300FF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
