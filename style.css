@@ -25,7 +25,6 @@ td
 main
 {
     color: black;
-
 }
 section
 {
@@ -46,6 +45,16 @@ article
     margin: 40px;
     padding: 10px;
     border-radius: 15px;
+}
+footer
+{
+    background-color: #393D42;
+    text-align: center;
+    padding-top: 30px;
+}
+.logos
+{
+    margin: 650px;
 }
 .Ferrari
 {
@@ -88,8 +97,8 @@ article
     line-height: 42px;
     color: #000000;
     font-family: Arial;
-    width: 200px;
-    font-size: 20px;
+    width: 150px;
+    font-size: 15px;
     font-weight: 400;
     padding: 37px;
     background-color: #FF0000;
@@ -102,7 +111,7 @@ article
     display: inline-block;
     cursor: pointer;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 .boton:hover
 {

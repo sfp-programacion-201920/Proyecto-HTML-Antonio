@@ -18,6 +18,16 @@ table
     width:70%; border-collapse:collapse;
     background-color:red;
 }
+footer
+{
+    background-color: #393D42;
+    text-align: center;
+    padding-top: 30px;
+}
+.logos
+{
+    margin: 650px;
+}
 td
 {
     border:2px solid black;

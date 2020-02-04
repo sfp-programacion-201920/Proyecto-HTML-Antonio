@@ -13,6 +13,16 @@ p
 {
     color:white
 }
+footer
+{
+    background-color: #393D42;
+    text-align: center;
+    padding-top: 30px;
+}
+.logos
+{
+    margin: 650px;
+}
 table
 {
     width:70%; border-collapse:collapse;
