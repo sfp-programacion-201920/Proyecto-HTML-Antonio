@@ -53,6 +53,18 @@ footer
     padding-top: 30px;
     color: white;
 }
+#inicio
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#facebook
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
 .logos
 {
     margin: 650px;
