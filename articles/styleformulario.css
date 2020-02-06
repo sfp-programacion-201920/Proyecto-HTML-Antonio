@@ -2,10 +2,12 @@ body
 {
     background-color:lightblue;
     font-family: 'Source Sans Pro', sans-serif;
-    
-
 }
 h2
+{
+    text-align: center;
+}
+header
 {
     text-align: center;
 }
